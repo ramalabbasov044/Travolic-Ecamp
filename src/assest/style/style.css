@@ -58,3 +58,63 @@ header {
 .active-nav {
   color: #1090cb !important;
 }
+.Rectangle {
+  height: 743px;
+  background: rgba(16, 144, 203, 0.1);
+  padding: 234px;
+  margin-top: 128px;
+}
+.Rectangle-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  max-width: 630px;
+  color: #000000;
+  margin-bottom: 16px;
+}
+.Rectangle-textt {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 204.3%;
+  color: #5c5c5c;
+  max-width: 613px;
+}
+.Rectangle-butoon{
+  display: flex;
+  gap: 15px;
+}
+ .contactButton2 {
+  width: 193px;
+  height: 51px;
+  border: 0;
+  border-radius: 6px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 204.3%;
+  color: #ffffff;
+  background: #1090cb;
+}
+.contactButton3{
+    width: 193px;
+  height: 51px;
+  border: 0;
+  border-radius: 6px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 204.3%;
+  color:  #1090cb;
+  background: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #1090CB ;
+}
+.blue-text{
+  color:#1090CB;
+}
