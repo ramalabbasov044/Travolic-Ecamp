@@ -61,9 +61,25 @@ header {
 .Rectangle {
   height: 743px;
   background: rgba(16, 144, 203, 0.1);
-  padding: 234px;
-  margin-top: 128px;
+  padding: 128px 26px 20px 123px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
 }
+
+.leftImage {
+  position: absolute;
+  left: 0;
+  bottom: -20%;
+}
+
+.rightImage {
+  position: absolute;
+  right: 0;
+  bottom: -14%;
+}
+
 .Rectangle-text {
   font-family: "Poppins";
   font-style: normal;
@@ -83,11 +99,11 @@ header {
   color: #5c5c5c;
   max-width: 613px;
 }
-.Rectangle-butoon{
+.Rectangle-butoon {
   display: flex;
   gap: 15px;
 }
- .contactButton2 {
+.contactButton2 {
   width: 193px;
   height: 51px;
   border: 0;
@@ -100,8 +116,8 @@ header {
   color: #ffffff;
   background: #1090cb;
 }
-.contactButton3{
-    width: 193px;
+.contactButton3 {
+  width: 193px;
   height: 51px;
   border: 0;
   border-radius: 6px;
@@ -110,11 +126,19 @@ header {
   font-weight: 400;
   font-size: 16px;
   line-height: 204.3%;
-  color:  #1090cb;
+  color: #1090cb;
   background: #ffffff;
   border-radius: 10px;
-  border: 1px solid #1090CB ;
+  border: 1px solid #1090cb;
 }
-.blue-text{
-  color:#1090CB;
+.blue-text {
+  color: #1090cb;
+}
+
+.Rectangle-textt p {
+  margin-top: 1rem;
+}
+
+.Rectangle-butoon {
+  margin-top: 65px;
 }
