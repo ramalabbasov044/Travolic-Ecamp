@@ -142,11 +142,36 @@ header {
 .Rectangle-butoon {
   margin-top: 65px;
 }
-.icons{
+.icons {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 0.7px solid #C7C7C7;
-  margin-top: 24px;
-  padding: 130px;
+  border: 0.7px solid #c7c7c7;
+  padding: 43px 130px 43px 123px;
+}
+.textt-lorem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.text-lorem h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 33px;
+  line-height: 160%;
+  color: #252525;
+  margin-top: 115px;
+}
+.text-lorem p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 175%;
+  text-align: center;
+  color: #868686;
+  margin-top: 32px;
+  max-width: 692px;
 }
