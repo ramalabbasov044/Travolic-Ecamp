@@ -175,3 +175,67 @@ header {
   margin-top: 32px;
   max-width: 692px;
 }
+.happy-lorem {
+  display: flex;
+}
+.happy-text {
+  margin-top: 70px;
+  padding: 123px;
+}
+.happy-image {
+  margin-top: 55px;
+}
+.website-mockup {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.website-mockup-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.website-mockup-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-right: 129px;
+}
+
+.focus-parallax {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin-top: 100px;
+  margin-top: 200px;
+}
+.focus-parallax-image {
+  margin-top: -70px;
+  margin-right: 123px;
+}
+.focus-parallax-text{
+  margin-left: 129px;
+}
+
+.white-blue-boxes{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 234px;
+}
+
+.Company{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 190px;
+   color: #000000;
+   font-family:var(--mainFont);
+   font-size: 24px;
+   line-height: 39px;
+}
+
+.Company-image{
+}
