@@ -214,26 +214,51 @@ header {
   margin-top: -70px;
   margin-right: 123px;
 }
-.focus-parallax-text{
+.focus-parallax-text {
   margin-left: 129px;
 }
 
-.white-blue-boxes{
+.white-blue-boxes {
   display: flex;
   justify-content: center;
   gap: 50px;
   margin-top: 234px;
 }
-
-.Company{
+.lorem-blue-box {
+  position: relative;
+}
+.lorem-blue-box .Bell-angel {
+  position: absolute;
+  margin-top: -80px;
+  right: 10px;
+}
+.Company {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   margin-top: 190px;
-   color: #000000;
-   font-family:var(--mainFont);
-   font-size: 24px;
-   line-height: 39px;
+  color: #000000;
+  font-family: var(--mainFont);
+  font-size: 24px;
+  line-height: 39px;
 }
 
+.Lorem-resources {
+  background-color: #e8f4fa;
+}
+.Lorem-resources-text{
+  font-family: var(--mainFont);
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 51px;
+  color: #252525;
+  text-align: center;
+  height: 30vh;
+  padding-left: 461px;
+  padding-right: 563px;
+}
+
+/* .Lorem-resources-text p{
+  margin-top: 148px;
+} */
