@@ -246,19 +246,122 @@ header {
 
 .Lorem-resources {
   background-color: #e8f4fa;
+  margin-top: 50px;
 }
-.Lorem-resources-text{
+.Lorem-resources-text {
+  padding: 50px 0;
   font-family: var(--mainFont);
   font-size: 30px;
   font-weight: 600;
   line-height: 51px;
   color: #252525;
   text-align: center;
-  height: 30vh;
-  padding-left: 461px;
-  padding-right: 563px;
+}
+.Lorem-resources-email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-container {
+  position: relative;
+  display: flex;
+  width: 100%;
+  max-width: 290px;
 }
 
-/* .Lorem-resources-text p{
-  margin-top: 148px;
-} */
+.input-container > span,
+.input-container .input {
+  white-space: nowrap;
+  display: block;
+}
+
+.input-container > span,
+.input-container .input:first-child {
+  border-radius: 6px 0 0 6px;
+}
+
+.input-container > span,
+.input-container .input {
+  border-radius: 0 6px 6px 0;
+}
+
+.input-container > span,
+.input-container .input {
+  margin-left: -1px;
+}
+
+.input-container .input {
+  position: relative;
+  z-index: 1;
+  flex: 1 1 auto;
+  width: 1%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.input-container span {
+  text-align: center;
+  padding: 8px 12px;
+  font-size: 14px;
+  line-height: 25px;
+  color: #6b7385;
+  background: #d4def5;
+  border: 1px solid #cdd9ed;
+  font-weight: bold;
+  transition: background 0.3s ease, border 0.3s ease, color 0.3s ease;
+}
+
+.input-container:focus-within > span {
+  color: #fff;
+  background-color: #148cd1;
+  border-color: #148cd1;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  padding: 8px 16px;
+  line-height: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+  border-radius: 6px;
+  -webkit-appearance: none;
+  color: #99a3ba;
+  border: 1px solid #cdd9ed;
+  background: #fff;
+  transition: border 0.3s ease;
+}
+
+.input::placeholder {
+  color: #cbd1dc;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #148cd1;
+}
+.footer {
+  display: flex;
+  margin-top: 90px;
+}
+.logo-footer {
+  color: #00329b;
+  font-size: 16px;
+  font-family: var(--mainFont);
+  font-weight: 700;
+  padding-left: 101px;
+  /* padding: 101px; */
+}
+.logo-footer p {
+  color: #515151;
+  font-size: 16px;
+  font-family: var(--mainFont);
+}
+
+.logo2-footer{
+  display: flex;
+  flex-direction: column;
+  line-height: 40px;
+}
+
